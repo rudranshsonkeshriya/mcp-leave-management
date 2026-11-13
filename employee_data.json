@@ -1,0 +1,55 @@
+{
+  "E001": {
+    "name": "Aditi Sharma",
+    "department": "Engineering",
+    "manager_id": "M001",
+    "leave_balance": {
+      "casual": 8,
+      "sick": 6,
+      "earned": 12
+    },
+    "leave_history": [
+      {
+        "leave_type": "casual",
+        "start_date": "2026-06-10",
+        "end_date": "2026-06-12",
+        "days": 3,
+        "reason": "Family function",
+        "status": "approved",
+        "applied_on": "2026-06-01"
+      }
+    ]
+  },
+  "E002": {
+    "name": "Rohan Verma",
+    "department": "Sales",
+    "manager_id": "M001",
+    "leave_balance": {
+      "casual": 10,
+      "sick": 8,
+      "earned": 15
+    },
+    "leave_history": []
+  },
+  "E003": {
+    "name": "Priya Nair",
+    "department": "HR",
+    "manager_id": "M002",
+    "leave_balance": {
+      "casual": 5,
+      "sick": 4,
+      "earned": 10
+    },
+    "leave_history": [
+      {
+        "leave_type": "sick",
+        "start_date": "2026-08-02",
+        "end_date": "2026-08-03",
+        "days": 2,
+        "reason": "Fever",
+        "status": "approved",
+        "applied_on": "2026-08-01"
+      }
+    ]
+  }
+}

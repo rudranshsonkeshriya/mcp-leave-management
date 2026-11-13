@@ -1,0 +1,8 @@
+[project]
+name = "mcp-leave-management"
+version = "0.1.0"
+description = "MCP server for HR employee leave management"
+requires-python = ">=3.10"
+dependencies = [
+       "mcp[cli]>=1.2.0,<2.0.0",
+]
